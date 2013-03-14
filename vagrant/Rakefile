@@ -1,0 +1,10 @@
+require 'bundler/setup'
+
+task :default => 'spec:all'
+
+namespace :spec do
+  desc 'Run Specs Against All Ruby Versions'
+  task :all do
+    exec "for v in '1.9.2' '1.9.3' '2.0'; do chruby-exec $v -- rspec; done"
+  end
+end
