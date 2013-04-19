@@ -44,7 +44,7 @@ module Backup
 
       'net-ssh' => {
         :require => 'net/ssh',
-        :version => ['>= 2.3.0', '<= 2.6.6'],
+        :version => ['>= 2.3.0', '<= 2.6.7'],
         :for     => 'SSH Protocol (SSH Storage)'
       },
 
