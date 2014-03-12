@@ -22,11 +22,11 @@ source 'https://rubygems.org'
 group :production do
   gem 'thor'
   gem 'open4'
-  gem 'fog'
+  gem 'fog', '~>1.20.0'
   # gem 'excon' - use version specified by fog
   gem 'unf' # for fog/AWS
   gem 'dropbox-sdk', '= 1.5.1' # patched
-  gem 'net-ssh'
+  gem 'net-ssh', '~>2.8.0'
   gem 'net-scp'
   gem 'net-sftp'
   gem 'mail', '= 2.5.4' # patched
