@@ -58,7 +58,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'memoizable', '= 0.4.0'
   gem.add_dependency 'mime-types', '= 1.25.1'
   gem.add_dependency 'mini_portile', '= 0.5.2'
-  gem.add_dependency 'multi_json', '= 1.9.0'
+  gem.add_dependency 'multi_json', '= 1.8.4'
   gem.add_dependency 'multi_xml', '= 0.5.5'
   gem.add_dependency 'multipart-post', '= 1.2.0'
   gem.add_dependency 'net-scp', '= 1.1.2'
