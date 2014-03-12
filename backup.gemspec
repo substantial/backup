@@ -52,7 +52,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'hipchat', '~> 1.0.1'
   gem.add_dependency 'http', '~> 0.5.0'
   gem.add_dependency 'http_parser.rb', '~> 0.6.0'
-  gem.add_dependency 'httparty', '~> 0.12.0'
+  gem.add_dependency 'httparty', '~> 0.13.0'
   gem.add_dependency 'json', '~> 1.8.1'
   gem.add_dependency 'mail', '~> 2.5.4'
   gem.add_dependency 'memoizable', '~> 0.4.0'
